@@ -1,0 +1,157 @@
+[
+    {
+        "name": "TACO",
+        "url": "http://tacodataset.org/",
+        "purpose": ["detection"],
+        "requestRequired": false,
+        "classes": {
+            "all": 1500
+        }
+    },
+    {
+        "name": "TrashNet",
+        "url": "https://github.com/garythung/trashnet",
+        "purpose": ["classification"],
+        "requestRequired": false,
+        "classes": {
+            "glass": 501,
+            "paper": 594,
+            "cardboard": 403,
+            "plastic": 482,
+            "metal": 410,
+            "trash": 137
+        }
+    },
+    {
+        "name": "WaDaBa",
+        "url": "http://wadaba.pcz.pl/",
+        "purpose": ["classification"],
+        "requestRequired": true,
+        "classes": {
+            "plastic": 4000
+        }
+    },
+    {
+        "name": "GLASSENSE-VISION",
+        "url": "http://www.slipguru.unige.it/Data/glassense_vision/",
+        "purpose": ["classification"],
+        "requestRequired": false,
+        "classes": {
+            "banknotes": 370,
+            "cereals": 654,
+            "medicines": 198,
+            "cans": 56,
+            "tomato_sauces": 76,
+            "water_bottle": 84,
+            "deodorant_stick": 66
+        }
+    },
+    {
+        "name": "Waste Images from Sushi Restaurant",
+        "url": "https://www.kaggle.com/datasets/arthurcen/waste-images-from-sushi-restaurant",
+        "purpose": ["classification"],
+        "requestRequired": false,
+        "classes": {
+            "brown_box": 20,
+            "chopstick_covers": 35,
+            "chopsticks": 40,
+            "foil": 4,
+            "food": 22,
+            "paper_bowl": 53,
+            "paper_bowl_small": 3,
+            "paper_bowl_square": 42,
+            "plastic_cover": 39,
+            "plastic_cup": 61,
+            "plastic_lid": 47,
+            "plastic_utensil": 37,
+            "sauce_cup": 59,
+            "sauce_packets": 12,
+            "straw": 3,
+            "tissue_paper": 66
+        }
+    },
+    {
+        "name": "Drinking Waste Classification",
+        "url": "https://www.kaggle.com/datasets/arkadiyhacks/drinking-waste-classification",
+        "purpose": ["classification", "detection"],
+        "requestRequired": false,
+        "classes": {
+            "aluminum_can": 1060,
+            "glass": 1232,
+            "hdpem": 1028,
+            "pet": 1508
+        }
+    },
+    {
+        "name": "waste_pictures",
+        "url": "https://www.kaggle.com/datasets/wangziang/waste-pictures",
+        "purpose": ["classification"],
+        "requestRequired": false,
+        "classes": {
+            "x_light": 975,
+            "bandaid": 412,
+            "battery": 1044,
+            "bowl_sand_dishes": 815,
+            "bread": 965,
+            "bulb": 886,
+            "cans": 804,
+            "carton": 307,
+            "chopsticks": 291,
+            "cigarette_butt": 98,
+            "diapers": 778,
+            "facial_mask": 804,
+            "glass_bottle": 623,
+            "leaflet": 881,
+            "leftovers": 1139,
+            "medicine_bottle": 724,
+            "milkbox": 207,
+            "nail_polish_bottle": 1313,
+            "napkin": 584,
+            "newspaper": 963,
+            "nut": 267,
+            "pen_holder": 1092,
+            "pesticide_bottle": 940,
+            "plastic_bag": 970,
+            "plastic_bottle": 300,
+            "plasticene": 974,
+            "rag": 574,
+            "tablet_capsule": 907,
+            "thermometer": 908,
+            "toothbrush": 470,
+            "toothpaste_tube": 366,
+            "toothpick": 132,
+            "traditional_chinese_medicine": 109,
+            "watermelon_rind": 1026
+        }
+    },
+    {
+        "name": "TrashBox",
+        "url": "https://github.com/nikhilvenkatkumsetty/TrashBox",
+        "purpose": ["classification"],
+        "requestRequired": false,
+        "classes": {
+            "medial_waste": 2010,
+            "e_waste": 2883,
+            "plastic": 2669,
+            "paper": 2695,
+            "metal": 2586,
+            "glass": 2528,
+            "cardboard": 2414
+        }
+    },
+    {
+        "name": "manon_str_cleaned_dataset",
+        "url": "https://www.kaggle.com/datasets/yacharki/manon-str-cleaned-dataset",
+        "purpose": ["classification"],
+        "requestRequired": false,
+        "classes": {
+            "cardboard": 105,
+            "masks": 33,
+            "metal": 47,
+            "paper": 42,
+            "plastic": 176,
+            "organic": 0,
+            "glass": 0
+        }
+    }
+]
